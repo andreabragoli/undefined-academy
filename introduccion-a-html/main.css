@@ -1,4 +1,4 @@
-body {
+/*body {
     background: whitesmoke;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,4 +57,20 @@ div {
 
 .Experiencia {
     color: violet;
+}
+
+body {
+    max-width: 600px;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 2px dashed tomato;
+    color: #333;    
+}
+
+p {
+    line-height: 1.1;
+}
+
+h1,h2 {
+    line-height: 1.5;
 }
