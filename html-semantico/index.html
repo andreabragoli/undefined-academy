@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Semantico</title>
+
+    <style>
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h1>Titulo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <header>
+                <h1>HTML Semantico</h1>
+                <p>Por Andrea Bragoli. Published <time datetime="2023-04-09 15:00">Apr 9th.</time></p>
+            </header>
+            <p>Esta es una pagina web de ejemplo que explica el marcado semantico.</p>
+
+            <section>
+                <h2>El esquema del documento</h2>
+                <p>HTML5 incluye varios elementos de "contenido de seccion que afectan el contorno del documento".</p>
+                <figure>
+                    <img src="hmgoepprod8.jpeg" alt="Diagrama de los elementos semanticos" width="200" height="300">
+                    <figcaption>Elementos semanticos en HTML</figcaption>
+                </figure>
+                <h3>Encabezados</h3>
+                <p>El elemento <code>&lt;header&gt;</code> es uno de esos elementos que "crea secciones".</p>
+
+                <h3>Pie de paginas</h3>
+                <p>Asi mismo el elemento <code>&lt;footer&gt;</code>.</p>
+            </section>
+
+            <section>
+                <h2>HTML semantico en linea</h2>
+                <p>El elemento <code>&lt;time&gt;</code> es semantico, pero no crea una seccion de contenido.</p>
+            </section>
+
+            <footer>
+                <p>Este articulo falso fue escrito por alguien.</p>
+                <address>
+                    Por favor contacte a <a href="mailto:me@andreabragoli.com">Andrea</a> para preguntas sobre el
+                    articulo.
+                </address>
+            </footer>
+        </article>
+    </div>
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
